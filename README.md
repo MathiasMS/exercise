@@ -9,9 +9,11 @@ To use it import the createParser factory method wich optionally can receive a c
 The configuration object accepts the following values:
 
 **validProtocols:** Array of strings optional. List of valid protocols accepted by the parser. 
-Example: `['http', 'https', 'ftp']`  Default: `[]` (all accepted) 
+Example: `['http', 'https', 'ftp']`  Default: `[]` (all accepted)
+
 **validHostnames:** Array of strings, optional. List of valid host names accepted by the parser
 Example: `['google.com', 'books.google.com', 'yahoo.com.ar']` Default: `[]` (all accepted) 
+
 **urlFormat:** String, optional. Pathname to validate. Can contain static paths or variables.
 Example:  `/:version/api/:collecton/:id` Default: `/`
 
