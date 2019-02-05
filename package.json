@@ -1,0 +1,16 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node sample.js"
+  },
+  "author": "Mathias Medina Sanchez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "jest": "^24.0.0"
+  }
+}
